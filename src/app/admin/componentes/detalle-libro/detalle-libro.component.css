@@ -1,0 +1,10 @@
+img {
+    height: 400px;
+    padding: 2rem;
+}
+
+.card {
+    display: flex;
+    margin: 3rem;
+    border-radius: 2rem;
+}

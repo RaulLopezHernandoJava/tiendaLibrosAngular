@@ -1,0 +1,77 @@
+{
+  "libros": [
+    {
+      "id": 1,
+      "ISBN": "9788408217848",
+      "titulo": "Terra Alta",
+      "autor": "Javier Cercas",
+      "fechaLanzamiento": "2019-05-11",
+      "precio": 21,
+      "img": "https://imagessl8.casadellibro.com/a/l/t5/48/9788408217848.jpg",
+      "descripcion": "Él era un hombre justo, el mundo no. Terra Alta, un thriller impactante.",
+      "categoriaId": 2
+    },
+    {
+      "id": 2,
+      "ISBN": "9788490669297",
+      "titulo": "Independecncia",
+      "autor": "Javier Cercas",
+      "fechaLanzamiento": "2021-03-03",
+      "precio": 20.8,
+      "img": "https://imagessl7.casadellibro.com/a/l/t5/97/9788490669297.jpg",
+      "descripcion": "No has conocido a nadie como ella... El fenómeno que ha enganchado a más de 1.200.000 lectores.",
+      "categoriaId": 2
+    },
+    {
+      "id": 3,
+      "ISBN": "9788448027421",
+      "titulo": "The Crown",
+      "autor": "Robert Lacey",
+      "fechaLanzamiento": "2020-10-11",
+      "precio": 26.55,
+      "img": "https://imagessl1.casadellibro.com/a/l/t5/21/9788448027421.jpg",
+      "descripcion": "Él era un hombre justo, el mundo no. Terra Alta, un thriller impactante.",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "ISBN": "9788466664417",
+      "titulo": "Reina Roja",
+      "autor": "Juan Gomez-Jurado",
+      "precio": 19.85,
+      "fechaLanzamiento": "2018-11-08",
+      "img": "https://imagessl7.casadellibro.com/a/l/t5/17/9788466664417.jpg",
+      "descripcion": "No has conocido a nadie como ella... El fenómeno que ha enganchado a más de 1.200.000 lectores.",
+      "categoriaId": 1
+    },
+    {
+      "id": 5,
+      "ISBN": "9788416517329",
+      "titulo": "Fleishman esta en apuros",
+      "autor": "Taffy Brodesser-Akner",
+      "fechaLanzamiento": "",
+      "precio": 16.15,
+      "img": "https://imagessl9.casadellibro.com/a/l/t5/29/9788416517329.jpg",
+      "descripcion": "Best seller del New York Times - Finalista del National Book Award - Uno de los 10 mejores libros del 2019 según Entertainment Weekly y La Biblioteca Pública de Nueva York.",
+      "categoriaId": 2
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Novela Negra"
+    },
+    {
+      "id": 2,
+      "nombre": "Novela Contemporanea"
+    },
+    {
+      "id": 3,
+      "nombre": "Narrativa Historica"
+    },
+    {
+      "id": 4,
+      "nombre": "Ciencias Politicas y Sociales"
+    }
+  ]
+}

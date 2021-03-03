@@ -1,0 +1,57 @@
+<div class="row">
+    <div class="col busqueda">
+        <h5>Cuadro de Busqueda</h5>
+        <div class="form-group">
+            <input [(ngModel)]="titulo" (input)="buscarPorNombre()" class="form-control" name="filterPost" placeholder="Busca por titulo" />
+        </div>
+        <div class="form-group">
+            <input [(ngModel)]="isbn" (input)="buscarPorISBN()" class="form-control" name="filterPost" placeholder="Busca por ISBN" />
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col crearLibro">
+
+        <div class="form-group">
+            <h5>Insertar Libro</h5> <a class="btn btn-outline-dark" routerLink="/admin/formulario">Añadir</a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <table class="table">
+            <thead class="text-center">
+                <tr>
+                    <th>Id</th>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>Precio</th>
+                    <th>Portada</th>
+                    <th>Fecha Lanzamiento</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="text-center filaLibro" *ngFor="let libro of libros">
+                    <th>{{libro.id}}</th>
+                    <td>{{libro.titulo}}</td>
+                    <td>{{libro.autor}}</td>
+                    <td>{{libro.precio}}</td>
+                    <td><img src={{libro.img}}></td>
+                    <td>{{libro.fechaLanzamiento}}</td>
+                    <td class="options">
+                        <button class="btn btn-outline-success" routerLink="/admin/detalleLibro/{{libro.id}}">Ver Detalle</button>
+                        <button class="btn btn-outline-primary" routerLink="/admin/formulario/{{libro.id}}">Editar</button>
+                        <button class="btn btn-outline-danger" (click)="borrar(libro)">Borrar</button>
+                    </td>
+                </tr>
+                <tr *ngIf="libros.length === 0">
+                    <td colspan="5">No hay productos</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+</div>

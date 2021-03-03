@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="card" style=" width: 25rem;">
+        <img class="card-img-top" src="{{libro.img}}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{libro.titulo}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{libro.autor}}</h6>
+            <p class="card-text">{{libro.descripcion}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">ISBN {{libro.ISBN}}</li>
+            <li class="list-group-item">Fecha Lanzamiento {{libro.fechaLanzamiento}}</li>
+        </ul>
+        <div class="card-body">
+            <button type="button" routerLink="/admin" class="btn btn-outline-dark">Volver al Listado Libros</button>
+        </div>
+    </div>
+</div>

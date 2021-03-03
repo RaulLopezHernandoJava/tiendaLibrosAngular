@@ -1,0 +1,36 @@
+.options {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.options button {
+    margin-top: 1rem;
+}
+
+.busqueda {
+    margin: 4rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+
+.filaLibro {
+    height: 20%;
+}
+
+img {
+    height: 250px;
+    width: 180px;
+}
+
+.crearLibro {
+    margin-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
